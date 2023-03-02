@@ -1,1 +1,1 @@
-# rsschool-cv
+https://agamasha.github.io/rsschool-cv/cv
