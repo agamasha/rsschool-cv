@@ -1,2 +1,1 @@
-https://github.com/agamasha/rsschool-cv/blob/gh-pages/cv.md
-
+https://agamasha.github.io/rsschool-cv/
