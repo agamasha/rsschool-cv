@@ -1,1 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 1440px;
+}
+
+header {
+    background-color: #0C0C0E;
+    color: #FFFFFF;
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Forum', serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 20px;
+    letter-spacing: 0.02em;
+}
+
+.empty {
+    display: inline-flex;
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+}
+
+.navigation {
+    display: inline-flex;
+}
+
+.nav-item {
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.nav-item:hover {
+    opacity: 0.5;
+}
+
+.icon {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+}
+
+.icon:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.icon-button {
+    margin-right: 20px;
+    margin-left: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+.welcome {
+    background: linear-gradient(to top, transparent, #0C0C0E), url("bg-books.png");
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-text {
+    align-items: center;
+    text-align: center;
+    background-color:#0C0C0E;
+    color:#FFFFFF;
+    font-size: 40px;
+    font-family: "Forum", serif;
+    letter-spacing: 3px;
+    height: 220px;
+    width: 600px;
+    padding: 35px 40px;
+}
 
