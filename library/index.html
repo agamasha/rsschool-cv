@@ -15,11 +15,11 @@
         <div class = "empty"></div>
         <nav>
             <ul class="navigation">
-                <li class="nav-item"><a>About</a></li>
-                <li class="nav-item"><a>Favorites</a></li>
-                <li class="nav-item"><a>Coffee shop</a></li>
-                <li class="nav-item"><a>Contacts</a></li>
-                <li class="nav-item"><a>Library Card</a></li>
+                <li class="nav-item"><a href = "#about">About</a></li>
+                <li class="nav-item"><a href = "#favorites">Favorites</a></li>
+                <li class="nav-item"><a href = "#coffeeshop">Coffee shop</a></li>
+                <li class="nav-item"><a href = "#contacts">Contacts</a></li>
+                <li class="nav-item"><a href = "#librarycard">Library Card</a></li>
             </ul>
         </nav>
         <button class = "icon-button">
@@ -33,11 +33,210 @@
                     WELCOME<br>TO THE BROOKLYN<br>LIBRARY
                 </div>
             </section>
-            <section class = "about"></section>
-            <section class = "favorites"></section>
-            <section class = "coffeeshop"></section>
-            <section class = "contacts"></section>
-            <section class = "librarycard"></section>
+            <section class = "about" id = "about">
+                <h2>About</h2>
+                <div class = "line"></div>
+                <div class = "about-text">
+                    The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside
+                </div>
+                <div class = "three-pictures">
+                    <img class = "about-picture" src = "image 1.png">
+                    <img class = "about-picture" src = "image 2.png">
+                    <img class = "about-picture" src = "image 3.png">
+                </div>
+                <div class = "three-pictures-choice">
+                    <div class = "picture-choice">
+                        <button class = "circle-button circle1"></button>
+                    </div>
+                    <div class = "picture-choice">
+                        <button class = "circle-button circle2"></button>
+                    </div>
+                    <div class = "picture-choice">
+                        <button class = "circle-button circle2"></button>
+                    </div>
+                </div>
+            </section>
+            <section class = "favorites" id = "favorites">
+                <h2>Favorites</h2>
+                <div class = "line"></div>
+                <p class = "favorite-pick-text">
+                    Pick favorites of season
+                </p>
+                <div class = "season-choice">
+                    <div class = "season-choice-button">
+                        <div class = "season-choice-circle">
+                            <div class = "season-choice-circle-checked"></div>
+                        </div>
+                    </div>
+                    <div class = "season winter">Winter</div>
+                    <div class = "season-choice-button">
+                        <div class = "season-choice-circle"></div>
+                    </div>
+                    <div class = "season">Spring</div>
+                    <div class = "season-choice-button">
+                        <div class = "season-choice-circle"></div>
+                    </div>
+                    <div class = "season">Summer</div>
+                    <div class = "season-choice-button">
+                        <div class = "season-choice-circle"></div>
+                    </div>
+                    <div class = "season">Autumn</div>
+                </div>
+                <div class = "season-books">
+                    <div class = "books-line">
+                        <div class = "season-book book1">
+                            <div class = "staff-pick">
+                                Staff Picks
+                            </div>
+                            <div class = "favorites-line"></div>
+                            <div class = "book-name">
+                                THE BOOK EATERS <br>
+                                By Sunyi Dean
+                            </div>
+                            <div class = "book-description">
+                                An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.
+                            </div>
+                            <div class = "empty-books"></div>
+                            <button class = "buy-button">Buy</button>
+                            <img class = "book-image" src = "winter-book1.png">
+                        </div>
+                        <div class = "season-book book2">
+                            <div class = "staff-pick">
+                                Staff Picks
+                            </div>
+                            <div class = "favorites-line"></div>
+                            <div class = "book-name">
+                                CACKLE <br>
+                                By Rachel Harrison
+                            </div>
+                            <div class = "book-description">
+                                Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a quaint town in upstate New York and befriends a beautiful witch.
+                            </div>
+                            <div class = "empty-books"></div>
+                            <button class = "buy-button">Buy</button>
+                            <img class = "book-image" src = "winter-book2.png">
+                        </div>
+                    </div>
+                    <div class = "books-line">
+                        <div class = "season-book book1">
+                            <div class = "staff-pick">
+                                Staff Picks
+                            </div>
+                            <div class = "favorites-line"></div>
+                            <div class = "book-name">
+                                DANTE: POET OF THE SECULAR WORLD <br>
+                                By Erich Auerbach
+                            </div>
+                            <div class = "book-description">
+                                Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul into something of divine significance—an inspired introduction to Dante's main themes.
+                            </div>
+                            <div class = "empty-books"></div>
+                            <button class = "buy-button">Buy</button>
+                            <img class = "book-image" src = "winter-book3.png">
+                        </div>
+                        <div class = "season-book book2">
+                            <div class = "staff-pick">
+                                Staff Picks
+                            </div>
+                            <div class = "favorites-line"></div>
+                            <div class = "book-name">
+                                THE LAST QUEEN <br>
+                                By Clive Irving
+                            </div>
+                            <div class = "book-description">
+                                A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.
+                            </div>
+                            <div class = "empty-books"></div>
+                            <button disabled class = "buy-button-own">Own</button>
+                            <img class = "book-image" src = "winter-book4.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class = "coffeeshop" id = "coffeeshop">
+                <h2>Coffee Shop</h2>
+                <div class = "line"></div>
+                <div class = "coffeeshop-text">
+                    In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation. You can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts from bakery.
+                </div>
+                <div class = "menu">
+                    <div class = "coffee">
+                        <div class = "coffee-header">
+                            Coffee & Tea
+                        </div>
+                        <div class = "coffee-item">
+                            <div class = "coffee-name">Cold Brew Coffee</div>
+                            <div class = "coffee-line"></div>
+                            <div class = "coffee-cost">$3</div>
+                        </div>
+                        <div class = "coffee-item">
+                            <div class = "coffee-name">French Press Pot</div>
+                            <div class = "coffee-line"></div>
+                            <div class = "coffee-cost">$5</div>
+                        </div>
+                        <div class = "coffee-item">
+                            <div class = "coffee-name">Espresso</div>
+                            <div class = "coffee-line"></div>
+                            <div class = "coffee-cost">$2</div>
+                        </div>
+                        <div class = "coffee-item">
+                            <div class = "coffee-name">Cappuccino</div>
+                            <div class = "coffee-line"></div>
+                            <div class = "coffee-cost">$4</div>
+                        </div>
+                        <div class = "coffee-item">
+                            <div class = "coffee-name">Hot tea</div>
+                            <div class = "coffee-line"></div>
+                            <div class = "coffee-cost">$2</div>
+                        </div>
+                        <div class = "coffee-item">
+                            <div class = "coffee-name">Cold tea</div>
+                            <div class = "coffee-line"></div>
+                            <div class = "coffee-cost">$2</div>
+                        </div>
+                    </div>
+                    <div class = "desserts">
+                        <div class = "desserts-header">
+                            Desserts & Cakes
+                        </div>
+                        <div class = "dessert-item">
+                            <div class = "dessert-name">Forest Gateau</div>
+                            <div class = "dessert-line"></div>
+                            <div class = "dessert-cost">$16</div>
+                        </div>
+                        <div class = "dessert-item">
+                            <div class = "dessert-name">Blue Moon</div>
+                            <div class = "dessert-line"></div>
+                            <div class = "dessert-cost">$16</div>
+                        </div>
+                        <div class = "dessert-item">
+                            <div class = "dessert-name">Truffle Cake</div>
+                            <div class = "dessert-line"></div>
+                            <div class = "dessert-cost">$15</div>
+                        </div>
+                        <div class = "dessert-item">
+                            <div class = "dessert-name">Chocolate Cake</div>
+                            <div class = "dessert-line"></div>
+                            <div class = "dessert-cost">$18</div>
+                        </div>
+                        <div class = "dessert-item">
+                            <div class = "dessert-name">Poet's Dream Cake</div>
+                            <div class = "dessert-line"></div>
+                            <div class = "dessert-cost">$16</div>
+                        </div>
+                        <div class = "dessert-item">
+                            <div class = "dessert-name">Pineapple Cake</div>
+                            <div class = "dessert-line"></div>
+                            <div class = "dessert-cost">$14</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class = "contacts" id = "contacts">
+                <h2>Our Contacts</h2>
+                <div class = "line"></div>
+            </section>
+            <section class = "librarycard" id = "librarycard"></section>
         </main>
         <footer>
         </footer>
