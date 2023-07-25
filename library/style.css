@@ -233,11 +233,6 @@ h2 {
     font-weight: bold;
 }
 
-.season-choice-circle:checked {
-    font-weight: bold;
-    color: aqua;
-}
-
 .season-books {
     display: flex;
     flex-wrap: wrap;
@@ -495,4 +490,62 @@ h2 {
     letter-spacing: 2px;
     text-transform: capitalize;
     margin-left: 60px;
+}
+
+.contacts {
+    position: relative;
+}
+
+.contact-info {
+    margin-right: 201px;
+}
+
+.contacts-header-1 {
+    color: #000000;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.contacts-header-2 {
+    color: #000000;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts-text {
+    color: #000000;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.map {
+    display: inline-block;
+    width: 696px;
+    height: 414px;
+    position: absolute;
+    right: 20px;
+    bottom: -30px;
 }
