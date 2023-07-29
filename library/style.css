@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,6 +14,16 @@ header {
     display: flex;
     height: 90px;
     align-items: center;
+}
+
+.black-header-background {
+    background-color: #0C0C0E;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    z-index: -1;
 }
 
 h1 {
@@ -40,18 +51,19 @@ nav {
     font-family: 'Inter', serif;
     font-size: 20px;
     margin-left: 30px;
+    line-height: 21px;
     list-style-type: none;
 }
 
 .nav-item a {
     color: #FFFFFF;
     text-decoration: none;
-
 }
 
 .nav-item:hover {
     border-bottom: 1px solid #FFFFFF;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .icon {
@@ -63,6 +75,7 @@ nav {
 .icon:hover {
     opacity: 0.5;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .icon-button {
@@ -75,10 +88,18 @@ nav {
 }
 
 .welcome {
-    background: linear-gradient(to top, transparent, #0C0C0E), url("bg-books.png");
     height: 600px;
     display: flex;
     align-items: center;
+}
+
+.welcome-background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 600px;
+    z-index: -1;
+    background: linear-gradient(to top, transparent, #0C0C0E), url("./img/bg-books.png");
 }
 
 .welcome-text {
@@ -155,9 +176,11 @@ h2 {
 
 .picture-choice:hover {
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .circle-button {
+    cursor: pointer;
     display: block;
     height: 16px;
     width: 16px;
@@ -201,6 +224,7 @@ h2 {
 
 .season-choice-button:hover {
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .season-choice-circle {
@@ -334,9 +358,9 @@ h2 {
 
 .buy-button:hover {
     cursor: pointer;
-    background-color: #000000;
-    color: #FFFFFF;
-    transition: 1s;
+    background-color: #BB945F;
+    border: 1px solid #BB945F;
+    transition: 0.5s;
 }
 
 .buy-button-own {
@@ -546,6 +570,44 @@ h2 {
     margin-bottom: 20px;
 }
 
+.tel {
+    color: #000000;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.tel:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.mail {
+    color: #000000;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.mail:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
 .map {
     display: inline-block;
     width: 696px;
@@ -641,9 +703,10 @@ h2 {
 }
 
 .form-button:hover {
-    background-color: #0C0C0E;
-    color:#FFFFFF;
-    transition: 1s;
+    background-color: #BB945F;
+    border: 1px solid #BB945F;
+    color:#000000;
+    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -693,7 +756,7 @@ h2 {
     background-color: #FFFFFF;
     color: #0C0C0E;
     text-align: center;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
@@ -710,4 +773,151 @@ h2 {
     border: 1px solid #0C0C0E;
     margin-top: 35px;
     margin-left: 20px;
+}
+
+.sign-log:hover {
+    background-color: #BB945F;
+    border: 1px solid #BB945F;
+    color:#000000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer {
+    width: 1440px;
+    height: 250px;
+    background-color: #0C0C0E;
+    margin-top: 41px;
+}
+
+.footer-before-line {
+    display: flex;
+    flex-direction: column;
+}
+
+.line1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.line2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.address {
+    width: 229px;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 1022px;
+    text-decoration: none;
+}
+
+.address:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.week1 {
+    width: 149px;
+    padding-top: 20px;
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.week2 {
+    width: 149px;
+    color: #FFF;
+    text-align: right;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+.socials {
+    display: flex;
+    width: 102px;
+    height: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 8px;
+    margin-right: 1168px;
+}
+
+hr {
+    width: 1400px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.footer-after-line {
+    display: flex;
+    flex-direction: row;
+    margin-top: 44px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.year {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-right: auto;
+}
+
+.rss {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-left: 135px;
+    text-decoration: none;
+}
+
+.rss:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.username {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.username:hover {
+    text-decoration: underline;
+    transition: 0.5s;
 }
