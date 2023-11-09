@@ -1,22 +1,19 @@
-# Агалакова Мария 
-### Контакты
-* 8-98?-3??-?4-4?
+# Agalakova Maria
+### Contacts
 * mariaaga17@gmail.com
-### О себе
 
-### Навыки
-* языки программирования
+### Skills
+* programming languages
    * html
    * css
-* системы контроля версий
+   * java script
+* version control systems
    * GIT
-
-### Опыт работы
-* пока ничего
   
-### Образование
-* 2017-2021 МГУ им. М. В. Ломоносова, специальность Физика, бакалавр
+### Education
+* 2017-2021 MSU named after M. V. Lomonosov, Physics
 * 2018-2019 HTML Academy
+* 2023 RS School Pre-school Frontend
   
 ### Языки
-* Английский язык Upper-Intermediate
+* English Upper-Intermediate
